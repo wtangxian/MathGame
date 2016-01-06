@@ -1,0 +1,23 @@
+﻿[2016.01.06-14.20.35:150][  0]Log file open, 01/06/16 14:20:35
+[2016.01.06-14.20.35:150][  0]LogInit:Display: Running engine for game: MyGameProject1
+[2016.01.06-14.20.35:150][  0]LogInit:Display: RandInit(1475605344) SRandInit(1475605345).
+[2016.01.06-14.20.35:150][  0]LogTaskGraph: Started task graph with 4 named threads and 8 total threads.
+[2016.01.06-14.20.35:150][  0]LogStats: Stats thread started at 0.432047
+[2016.01.06-14.20.35:150][  0]LogInit:Warning: Incompatible or missing module: UE4Editor-MyGameProject1.dll
+[2016.01.06-14.20.43:045][  0]LogExit: Preparing to exit.
+[2016.01.06-14.20.43:049][  0]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.01.06-14.20.43:049][  0]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.01.06-14.20.43:049][  0]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.01.06-14.20.43:049][  0]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.01.06-14.20.43:049][  0]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.01.06-14.20.43:049][  0]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.01.06-14.20.43:049][  0]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.01.06-14.20.43:049][  0]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.01.06-14.20.43:050][  0]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.01.06-14.20.43:050][  0]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.01.06-14.20.43:050][  0]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.01.06-14.20.43:050][  0]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.01.06-14.20.43:050][  0]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.01.06-14.20.43:051][  0]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.01.06-14.20.43:052][  0]LogExit: Exiting.
+[2016.01.06-14.20.43:054][  0]Log file closed, 01/06/16 14:20:43

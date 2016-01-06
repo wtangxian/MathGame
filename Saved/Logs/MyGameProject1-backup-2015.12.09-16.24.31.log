@@ -1,0 +1,225 @@
+﻿[2015.12.09-16.21.21:038][  0]Log file open, 12/09/15 16:21:21
+[2015.12.09-16.21.21:038][  0]LogInit:Display: Running engine for game: MyGameProject1
+[2015.12.09-16.21.21:039][  0]LogInit:Display: RandInit(1033705015) SRandInit(1033705016).
+[2015.12.09-16.21.21:039][  0]LogTaskGraph: Started task graph with 4 named threads and 8 total threads.
+[2015.12.09-16.21.21:039][  0]LogStats: Stats thread started at 0.231047
+[2015.12.09-16.21.21:039][  0]LogInit: Version: 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2015.12.09-16.21.21:040][  0]LogInit: API Version: 2672455
+[2015.12.09-16.21.21:040][  0]LogInit: Compiled (64-bit): Sep 28 2015 10:25:44
+[2015.12.09-16.21.21:040][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.12.09-16.21.21:040][  0]LogInit: Build Configuration: Development
+[2015.12.09-16.21.21:040][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2015.12.09-16.21.21:041][  0]LogInit: Command line: 
+[2015.12.09-16.21.21:041][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.9/Engine/Binaries/Win64/
+[2015.12.09-16.21.21:041][  0]LogInit: Rocket: 1
+[2015.12.09-16.21.21:125][  0]LogInit: Using libcurl 7.41.0
+[2015.12.09-16.21.21:125][  0]LogInit:  - built for x86_64-pc-win32
+[2015.12.09-16.21.21:125][  0]LogInit:  - supports SSL with WinSSL
+[2015.12.09-16.21.21:126][  0]LogInit:  - other features:
+[2015.12.09-16.21.21:126][  0]LogInit:      CURL_VERSION_SSL
+[2015.12.09-16.21.21:126][  0]LogInit:      CURL_VERSION_IPV6
+[2015.12.09-16.21.21:126][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.12.09-16.21.21:126][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.12.09-16.21.21:127][  0]LogInit:      CURL_VERSION_IDN
+[2015.12.09-16.21.21:127][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.12.09-16.21.21:127][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.12.09-16.21.21:127][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.12.09-16.21.21:127][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.12.09-16.21.21:128][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.12.09-16.21.21:191][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.12.09-16.21.21:199][  0]LogInit: Object subsystem initialized
+[2015.12.09-16.21.21:201][  0]LogInit: Selected Device Profile: [Windows]
+[2015.12.09-16.21.21:201][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.12.09-16.21.21:246][  0]LogInit: Computer: PC40924
+[2015.12.09-16.21.21:246][  0]LogInit: User: wtang
+[2015.12.09-16.21.21:246][  0]LogInit: CPU Page size=4096, Cores=6
+[2015.12.09-16.21.21:246][  0]LogInit: High frequency timer resolution =3.409814 MHz
+[2015.12.09-16.21.21:247][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2015.12.09-16.21.21:247][  0]LogMemory: Platform Memory Stats for Windows
+[2015.12.09-16.21.21:247][  0]LogMemory: Process Physical Memory: 54.05 MB used, 54.05 MB peak
+[2015.12.09-16.21.21:247][  0]LogMemory: Process Virtual Memory: 55.69 MB used, 55.69 MB peak
+[2015.12.09-16.21.21:248][  0]LogMemory: Physical Memory: 7589.81 MB used, 32691.78 MB total
+[2015.12.09-16.21.21:248][  0]LogMemory: Virtual Memory: 334.46 MB used, 8388608.00 MB total
+[2015.12.09-16.21.21:434][  0]LogTextLocalizationManager: No specific translations for ('en-GB') exist, so ('en') translations will be used.
+[2015.12.09-16.21.22:279][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA Quadro K4000 (Feature Level 11_0)
+[2015.12.09-16.21.22:279][  0]LogD3D11RHI: Adapter has 3015MB of dedicated video memory, 0MB of dedicated system memory, and 16089MB of shared system memory, 2 output[s]
+[2015.12.09-16.21.22:279][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.12.09-16.21.22:285][  0]LogD3D11RHI: !Direct3DDevice
+[2015.12.09-16.21.22:285][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.12.09-16.21.22:307][  0]LogD3D11RHI: Async texture creation enabled
+[2015.12.09-16.21.22:405][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (E:/WenBU/Unreal Projects/MyGameProject1/Intermediate/Shaders/WorkingDirectory/5336/).
+[2015.12.09-16.21.22:406][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'E:/WenBU/Unreal Projects/MyGameProject1/Intermediate/Shaders/tmp/A605DA7B4DF731A04024E09D8D877EA2/'.
+[2015.12.09-16.21.22:406][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.12.09-16.21.24:003][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2015.12.09-16.21.24:030][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.12.09-16.21.24:060][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.12.09-16.21.24:090][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.12.09-16.21.24:136][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.12.09-16.21.24:151][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.12.09-16.21.24:186][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.12.09-16.21.24:200][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.12.09-16.21.24:216][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.12.09-16.21.24:231][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.12.09-16.21.24:246][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.12.09-16.21.24:261][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.12.09-16.21.24:271][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2015.12.09-16.21.24:333][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.12.09-16.21.24:346][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.12.09-16.21.24:366][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.12.09-16.21.24:383][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.12.09-16.21.24:383][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.12.09-16.21.24:867][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.12.09-16.21.24:915][  0]LogDerivedDataCache: Loaded boot cache 0.05s 41MB C:/Users/wtang.STAFF/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.12.09-16.21.24:915][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/wtang.STAFF/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2015.12.09-16.21.24:916][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file E:/WenBU/Unreal Projects/MyGameProject1/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.12.09-16.21.24:916][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.12.09-16.21.24:916][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file E:/WenBU/Unreal Projects/MyGameProject1/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.12.09-16.21.24:917][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.12.09-16.21.25:072][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.12.09-16.21.25:091][  0]LogDerivedDataCache: Using Local data cache path C:/Users/wtang.STAFF/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.12.09-16.21.25:559][  0]LogInit: Selected Device Profile: [Windows]
+[2015.12.09-16.21.25:561][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.12.09-16.21.25:648][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.12.09-16.21.25:649][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.12.09-16.21.26:320][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.12.09-16.21.30:063][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.12.09-16.21.30:313][  0]LogLinker:Warning: Asset 'E:/WenBU/Unreal Projects/MyGameProject1/Content/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.12.09-16.21.30:325][  0]LogLinker:Warning: Asset 'E:/WenBU/Unreal Projects/MyGameProject1/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.12.09-16.21.30:331][  0]LogLinker:Warning: Asset 'E:/WenBU/Unreal Projects/MyGameProject1/Content/Mannequin/Animations/ThirdPerson_Jump.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.12.09-16.21.30:359][  0]LogLinker:Warning: Asset 'E:/WenBU/Unreal Projects/MyGameProject1/Content/Mannequin/Animations/ThirdPersonJump_Loop.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.12.09-16.21.30:380][  0]LogLinker:Warning: Asset 'E:/WenBU/Unreal Projects/MyGameProject1/Content/Mannequin/Animations/ThirdPersonJump_Start.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.12.09-16.21.30:397][  0]LogLinker:Warning: Asset 'E:/WenBU/Unreal Projects/MyGameProject1/Content/Mannequin/Animations/ThirdPerson_IdleRun_2D.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.12.09-16.21.30:414][  0]LogLinker:Warning: Asset 'E:/WenBU/Unreal Projects/MyGameProject1/Content/Mannequin/Animations/ThirdPersonIdle.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.12.09-16.21.30:435][  0]LogLinker:Warning: Asset 'E:/WenBU/Unreal Projects/MyGameProject1/Content/Mannequin/Animations/ThirdPersonRun.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.12.09-16.21.30:449][  0]LogLinker:Warning: Asset 'E:/WenBU/Unreal Projects/MyGameProject1/Content/Mannequin/Animations/ThirdPersonWalk.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.12.09-16.21.31:716][  0]LogAssetRegistry: FAssetRegistry took 0.0148 seconds to start up
+[2015.12.09-16.21.33:128][  0]SourceControl: Info Source control is disabled
+[2015.12.09-16.21.33:209][  0]SourceControl: Info Source control is disabled
+[2015.12.09-16.21.33:300][  0]SourceControl: Info Source control is disabled
+[2015.12.09-16.21.33:404][  0]SourceControl: Info Source control is disabled
+[2015.12.09-16.21.34:230][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.12.09-16.21.34:526][  0]LogObj: 31428 objects as part of root set at end of initial load.
+[2015.12.09-16.21.34:527][  0]LogUObjectAllocator: 7122296 out of 0 bytes used by permanent object pool.
+[2015.12.09-16.21.34:648][  0]LogEngine: Initializing Engine...
+[2015.12.09-16.21.34:664][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.7.0.0
+[2015.12.09-16.21.34:670][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2015.12.09-16.21.34:836][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.12.09-16.21.34:849][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.12.09-16.21.34:894][  0]LogInit: FAudioDevice initialized.
+[2015.12.09-16.21.34:939][  0]LogDerivedDataCache: Saved boot cache 0.04s 42MB C:/Users/wtang.STAFF/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.12.09-16.21.34:943][  0]LogInit: Texture streaming: Enabled
+[2015.12.09-16.21.34:974][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.12.09-16.21.34:974][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2015.12.09-16.21.34:974][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 2ab207f54416abf0d5602ba73c565959|de3bff39eb7e4bfe877607a03793132e|06a000fb-df01-4fab-8049-4bf78193a4e7
+[2015.12.09-16.21.34:975][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.12.09-16.21.35:014][  0]LogInit: Transaction tracking system initialized
+[2015.12.09-16.21.35:188][  0]BlueprintLog: New page: Editor Load
+[2015.12.09-16.21.35:938][  0]LocalizationService: Info Localization service is disabled
+[2015.12.09-16.21.36:294][  0]LogLinker:Warning: Can't find file '/Game/TwinStickCPP/TwinStickOverview'
+[2015.12.09-16.21.36:294][  0]LogLinker:Warning: Can't find file '/Game/TwinStickCPP/TwinStickOverview'
+[2015.12.09-16.21.36:295][  0]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/TwinStickCPP/TwinStickOverview.TwinStickOverview_C'
+[2015.12.09-16.21.36:355][  0]LogConsoleResponse:Display: 
+[2015.12.09-16.21.36:554][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.12.09-16.21.36:852][  0]LogFileCache: Scanning file cache for directory 'E:/WenBU/Unreal Projects/MyGameProject1/Content/' took 0.08s
+[2015.12.09-16.21.36:910][  0]SourceControl: Info Source control is disabled
+[2015.12.09-16.21.36:910][  0]Cmd: MAP LOAD FILE="E:/WenBU/Unreal Projects/MyGameProject1/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.12.09-16.21.36:929][  0]LightingResults: New page: Lighting Build
+[2015.12.09-16.21.36:936][  0]MapCheck: New page: Map Check
+[2015.12.09-16.21.36:936][  0]LightingResults: New page: Lighting Build
+[2015.12.09-16.21.36:947][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001DD7A160
+[2015.12.09-16.21.41:279][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2015.12.09-16.21.41:306][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.12.09-16.21.41:307][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.12.09-16.21.41:641][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 333.037ms to complete.
+[2015.12.09-16.21.41:641][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 4.732
+[2015.12.09-16.21.41:759][  0]LogCollectionManager: Loaded 0 collections in 0.003000 seconds
+[2015.12.09-16.21.41:815][  0]LogFileCache: Scanning file cache for directory 'E:/WenBU/Unreal Projects/MyGameProject1/Saved/Collections/' took 0.01s
+[2015.12.09-16.21.41:816][  0]LogFileCache: Scanning file cache for directory 'E:/WenBU/Unreal Projects/MyGameProject1/Content/Developers/wtang/Collections/' took 0.01s
+[2015.12.09-16.21.41:816][  0]LogFileCache: Scanning file cache for directory 'E:/WenBU/Unreal Projects/MyGameProject1/Content/Collections/' took 0.01s
+[2015.12.09-16.21.41:817][  0]LogContentBrowser: Native class hierarchy populated in 0.0129 seconds. Added 1874 classes and 335 folders.
+[2015.12.09-16.21.41:832][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000006 seconds
+[2015.12.09-16.21.41:853][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0048 seconds. Added 0 classes and 0 folders.
+[2015.12.09-16.21.42:036][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0046 seconds. Added 0 classes and 0 folders.
+[2015.12.09-16.21.42:086][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0046 seconds. Added 1 classes and 2 folders.
+[2015.12.09-16.21.42:175][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.12.09-16.21.42:179][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.12.09-16.21.42:204][  0]LogLoad: Full Startup: 23.84 seconds (BP compile: 0.50 seconds)
+[2015.12.09-16.21.42:215][  0]LoadErrors:Error: Error /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap : Failed import for SphereComponent /Game/ThirdPersonCPP/Blueprints/BP_MyProject1Character0.Default__BP_MyProject1Character0_C:CollectionSphere
+[2015.12.09-16.21.42:216][  0]LoadErrors:Error: Error /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap : Failed import for SphereComponent /Game/ThirdPersonCPP/Blueprints/MyChibiCharacter1.Default__MyChibiCharacter1_C:CollectionSphere
+[2015.12.09-16.21.42:216][  0]LoadErrors:Error: Error /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap : Failed import for SphereComponent /Game/ThirdPersonCPP/Blueprints/MyChibiCharacter2.Default__MyChibiCharacter2_C:CollectionSphere
+[2015.12.09-16.21.42:216][  0]LoadErrors:Error: Error /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap : Failed import for SphereComponent /Game/ThirdPersonCPP/Blueprints/MyChibiCharacter3.Default__MyChibiCharacter3_C:CollectionSphere
+[2015.12.09-16.21.42:217][  0]LoadErrors:Error: Error /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap : Failed import for SphereComponent /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.Default__ThirdPersonCharacter_C:CollectionSphere
+[2015.12.09-16.21.42:246][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2015.12.09-16.21.42:528][  3]LogRenderer: Reallocating scene render targets to support 128x128 (Frame:1).
+[2015.12.09-16.21.42:904][  3]LogRenderer: Reallocating scene render targets to support 256x256 (Frame:2).
+[2015.12.09-16.21.43:148][  7]LogAssetRegistry: Asset discovery search completed in 11.4472 seconds
+[2015.12.09-16.21.43:149][  7]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2015.12.09-16.21.43:149][  7]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000282 seconds (updated 0 objects)
+[2015.12.09-16.21.49:211][717]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2015.12.09-16.21.49:212][717]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.12.09-16.21.49:213][717]PIE: New page: PIE session: ThirdPersonExampleMap (9 Dec 2015 16:21:49)
+[2015.12.09-16.21.49:215][717]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2015.12.09-16.21.49:235][717]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019262s)
+[2015.12.09-16.21.49:237][717]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2015.12.09-16.21.49:238][717]LogPlayLevel: PIE: World Init took: (0.001629s)
+[2015.12.09-16.21.49:238][717]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.023730s)
+[2015.12.09-16.21.49:273][717]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.12.09-16.21.49:298][717]LogInit: FAudioDevice initialized.
+[2015.12.09-16.21.49:394][717]LogWorld: Game class is 'MyGameProject1GameMode'
+[2015.12.09-16.21.49:453][717]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2015.12.09-16.21.49
+[2015.12.09-16.21.49:454][717]LogActor:Warning: GameSession /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.09-16.21.49:456][717]LogActor:Warning: GameNetworkManager /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.09-16.21.49:482][717]LogWorld: Bringing up level for play took: 0.084052
+[2015.12.09-16.21.49:505][717]PIE: Info Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.589
+[2015.12.09-16.21.49:506][717]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2015.12.09-16.21.49:586][719]LogRenderer: Reallocating scene render targets to support 1280x720 (Frame:3).
+[2015.12.09-16.22.09:862][135]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2015.12.09-16.22.09:930][135]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2015.12.09-16.22.09:944][135]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000026705760
+[2015.12.09-16.22.29:717][334]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.12.09-16.22.30:490][334]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0100 seconds. Added 107 classes and 0 folders.
+[2015.12.09-16.23.32:421][876]LogAIModule: Creating AISystem for world demo
+[2015.12.09-16.23.32:424][876]LogMaterial:Warning: Material /Game/Tower_Defence/materials/Props/Leaves.Leaves needed to have new flag set bUsedWithInstancedStaticMeshes !
+[2015.12.09-16.23.32:485][876]LogMaterial: Missing cached shader map for material Leaves, compiling. 
+[2015.12.09-16.23.32:592][876]MapCheck:Warning: Warning Leaves Material /Game/Tower_Defence/materials/Props/Leaves.Leaves was missing the usage flag bUsedWithInstancedStaticMeshes. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
+[2015.12.09-16.23.32:603][876]LogMaterial: 0.000148 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.09-16.23.32:603][876]LogMaterial:Warning: Material /Game/Tower_Defence/materials/Props/Tree_bark.Tree_bark needed to have new flag set bUsedWithInstancedStaticMeshes !
+[2015.12.09-16.23.32:606][876]LogMaterial: Missing cached shader map for material Tree_bark, compiling. 
+[2015.12.09-16.23.32:630][876]MapCheck:Warning: Warning Tree_bark Material /Game/Tower_Defence/materials/Props/Tree_bark.Tree_bark was missing the usage flag bUsedWithInstancedStaticMeshes. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
+[2015.12.09-16.23.32:631][876]LogMaterial: 0.000184 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.09-16.23.32:632][876]LogMaterial:Warning: Material /Game/Tower_Defence/materials/Props/Rocks.Rocks needed to have new flag set bUsedWithInstancedStaticMeshes !
+[2015.12.09-16.23.32:636][876]LogMaterial: Missing cached shader map for material Rocks, compiling. 
+[2015.12.09-16.23.32:650][876]MapCheck:Warning: Warning Rocks Material /Game/Tower_Defence/materials/Props/Rocks.Rocks was missing the usage flag bUsedWithInstancedStaticMeshes. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
+[2015.12.09-16.23.32:651][876]LogMaterial: 0.000153 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.09-16.23.33:463][876]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.12.09-16.23.33:465][876]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2015.12.09-16.23.33:466][876]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2015.12.09-16.23.33:468][876]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2015.12.09-16.23.33:469][876]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2015.12.09-16.23.33:471][876]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_4) Not registered. Aborting.
+[2015.12.09-16.23.33:473][876]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_5) Not registered. Aborting.
+[2015.12.09-16.23.33:498][876]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002283DEE0
+[2015.12.09-16.23.33:505][876]Cmd: MAP LOAD FILE="E:/WenBU/Unreal Projects/MyGameProject1/Content/Tower_Defence/Maps/demo.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.12.09-16.23.33:505][876]LightingResults: New page: Lighting Build
+[2015.12.09-16.23.33:598][876]LoadErrors: New page: Loading map: demo.umap
+[2015.12.09-16.23.33:601][876]MapCheck: New page: Map Check
+[2015.12.09-16.23.33:602][876]LightingResults: New page: Lighting Build
+[2015.12.09-16.23.33:640][876]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000264D1D00
+[2015.12.09-16.23.41:640][876]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.12.09-16.23.41:679][876]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.12.09-16.23.42:324][876]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 643.98ms to complete.
+[2015.12.09-16.23.42:326][876]LogFileHelpers: Loading map 'demo' took 8.822
+[2015.12.09-16.23.42:372][877]Cmd: UpdateLandscapeEditorData -warnings
+[2015.12.09-16.23.42:384][877]Cmd: UpdateLandscapeEditorData
+[2015.12.09-16.24.01:736][812]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Shere)
+[2015.12.09-16.24.06:303][105]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Tower_Defence/Maps/demo.demo:PersistentLevel' has LevelScriptBlueprint '/Game/Tower_Defence/Maps/demo.demo:PersistentLevel.demo' with GeneratedClass '/Game/Tower_Defence/Maps/demo.demo_C' with ClassGeneratedBy '/Game/Tower_Defence/Maps/demo.demo:PersistentLevel.demo'
+[2015.12.09-16.24.06:304][105]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.12.09-16.24.06:304][105]PIE: New page: PIE session: demo (9 Dec 2015 16:24:06)
+[2015.12.09-16.24.06:304][105]LogPlayLevel: Creating play world package: /Game/Tower_Defence/Maps/UEDPIE_0_demo
+[2015.12.09-16.24.06:507][105]LogPlayLevel: PIE: StaticDuplicateObject took: (0.202470s)
+[2015.12.09-16.24.06:509][105]LogAIModule: Creating AISystem for world demo
+[2015.12.09-16.24.06:510][105]LogPlayLevel: PIE: World Init took: (0.002210s)
+[2015.12.09-16.24.06:511][105]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Tower_Defence/Maps/demo.demo to /Game/Tower_Defence/Maps/UEDPIE_0_demo.demo (0.207026s)
+[2015.12.09-16.24.06:512][105]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.12.09-16.24.06:516][105]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_6) Not registered. Aborting.
+[2015.12.09-16.24.06:520][105]LogActorComponent: UnregisterComponent: (/Engine/Transient.Character
